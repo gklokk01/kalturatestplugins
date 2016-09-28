@@ -63,7 +63,7 @@ mw.kalturaPluginWrapper(function(){
                 $("#notes").html('<div style="padding:10px">' + zoomBtn + CurrentSlide + '</div'); 
             });
             this.bind('playerReady', function(){
-                _this.setFirstSlide();
+               // _this.setFirstSlide();
             });
             this.bind('monitorEvent', function(){
                 _this.UpdateNotes();
